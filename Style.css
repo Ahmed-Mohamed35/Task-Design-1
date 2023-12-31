@@ -1,0 +1,624 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.blue_bg {
+    position: absolute;
+    width: 100%;
+    height: 800px;
+}
+.nav_1 {
+    display: flex;
+    justify-content: space-between;  
+    padding: 46px;
+}
+.div_1 {
+    display: flex;
+}
+.div_2 {
+    display: flex;
+    position: relative;
+    padding-right: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.div_2 img {
+    position: absolute;
+    width: 68px;
+    margin: 15px;
+}
+.div_2 p {
+    z-index: 5;
+    color: rgb(121, 121, 121);
+}
+.div_3 {
+    margin: 17px;
+    color: rgb(121, 121, 121);
+}
+.section_2 {
+    display: flex;
+    justify-content: space-between;
+}
+.div_4 {
+    padding-top: 180px;
+    width: 50%;
+    margin-left: 70px;
+}
+.div_h1 {
+    font-size: 53px;
+    color: rgb(75, 75, 75);
+}
+.div_h1 span {
+    color: rgb(101, 32, 166);
+}
+.div_4 p {
+    font-size: 30px;
+    color: rgb(121, 121, 121);
+    margin-top: 18px;
+}
+
+.div_5 {
+    width: 50%;
+    position: relative;
+}
+.land {
+    width: 100%;
+}
+.mask {
+    width: 45%;
+    position: absolute;
+    top: 10px;
+    left: 140px;
+} 
+.clouds {
+    width: 60%;
+    position: absolute;
+    bottom: 83px;
+    left: 90px;
+}
+.waves {
+    width: 70%;
+    position: absolute;
+    bottom: -12%;
+}
+.section_3 {
+    position: relative;
+    text-align: center;
+    padding-top: 0px;
+    
+    height: 250px;
+}
+.div_meddel div {
+    width: 300px;
+}
+.div_meddel div img {
+    width: 200px;
+}
+.div_meddel div h3 {
+    font-size: 20px;
+    color:#5b5b5b;
+}
+.div_meddel div p {
+    font-size: 15px;
+    color: #8a8a8a;
+    padding-top: 10px;
+}
+.div_meddel .div_6 {
+    position: absolute;
+    top: 44%;
+    left: 10%;
+}
+.div_meddel .div_7 {
+    position: absolute;
+    top: 90%;
+    left: 40%;
+}
+.div_meddel .div_8 {
+    position: absolute;
+    top: 214%;
+    left: 67%;
+} 
+.img_meddel {
+    position: absolute;
+    top: 13%;
+    left: 22%;
+    width: 66%;
+    height: 207%;
+}
+.div_meddel2 {
+    position: absolute;
+    top: 177%;
+    left: 10%;
+}
+.div_9 img {
+    width: 300px;
+}
+.div_9 {
+    position: relative;
+}
+.divph2 {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    font-size: 26px;
+    color: aliceblue;
+}
+.divph2 p {
+    text-align: left;
+}
+.section_4 {
+    margin-top: 615px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.div_10 {
+    padding: 30px;
+}
+.div_11 h2 {
+    color:#5b5b5b;
+}
+.div_12 {
+    margin-top: 13px;
+    color: #8a8a8a;
+}
+footer {
+    position: relative;
+    height: 70vh;
+    overflow: hidden;
+}
+.img_foot {
+    margin: top 0;
+    position: absolute;
+    width: 115%;
+    top: 0;
+    left: -4%;
+}
+.img_foot_p {
+    width: 45%;
+    position: absolute;
+    right: 5%;
+    top: 83px;
+}
+.footer_link {
+    position: relative;
+    width: 130px;
+    margin-right: 20px;
+}
+.footer_icon {
+    position: absolute;
+    top: 65%;
+    left: 5%;
+    
+}
+.div_13 {
+    display: flex;
+}
+.footer_link_img {
+    width: 130px;
+    height: 40px;
+}
+.footer_link div {
+    position: absolute;
+    left: 10%;
+    bottom: 40%;
+    display: flex;
+    align-items: center;
+}
+.footer_link div p {
+    font-size: 15px;
+    color: #2d2d2d;
+}
+.footer_link div span {
+    color: rgb(104, 0, 165);
+    font-size: 15px;
+}
+.icons {
+    display: flex;
+    margin-top: 10px;
+}
+.icons img {
+    margin: 5px;
+}
+.div_14 {
+    display: flex;
+}
+.div_15 {
+    color: #ffffff;
+    margin: 20px;
+}
+
+
+
+@media only screen and  (min-width:300px) and (max-width:576px) {
+    .blue_bg {
+        height: 323px;
+    }
+    .nav_1 {
+        padding: 20px;
+    }
+    .div_3 {
+        font-size: small;
+    }
+    .div_4 { 
+        padding-top: 50px;
+        margin-left: 44px;
+    }
+    .div_h1 {
+        font-size: 20px;
+    }
+    .div_4 p {
+        font-size: 15px;
+    }
+    .land {
+        width: 89%;
+    }
+    .mask {
+        width: 41%;
+        position: absolute;
+        top: 10px;
+        left: 40px;
+    } 
+    .clouds {
+        width: 52%;
+        position: absolute;
+        bottom: 22px;
+        left: 27px;
+    }
+    .waves {
+        width: 78%;
+        bottom: 48%;
+    }
+    .div_meddel div img {
+        width: 112px;
+    }
+    .div_meddel div {
+        width: 167px;
+    }
+    .div_meddel div h3 {
+        font-size: 16px;
+    }
+    .div_meddel div p {
+        font-size: 11px;
+        padding-top: 5px;
+    }
+    .img_meddel {
+        width: 75%;
+        height: 191%;
+    }
+    .div_meddel .div_6 {
+        top: 43%;
+        left: 7%;
+    }
+    .div_meddel .div_7 {
+        top: 91%;
+        left: 42%;
+    }
+    .div_meddel .div_8 {
+        top: 200%;
+    } 
+    .div_meddel2 {
+        top: 197%;
+        left: 10%;
+    }
+    .div_9 img {
+        width: 189px;
+    }
+    .divph2 {
+        font-size: 16px;
+    }
+    .section_4 {
+        margin-top: 513px;
+    }
+    .section_4 img {
+        width: 100px;
+    }
+    .div_11 h2 {
+        font-size: 15px;
+    }
+    .div_10 img {
+        width: 269px;
+    }
+    .footer_icon {
+        top: 55%;
+        left: 2%;
+    }
+    .div_14 {
+        display: flex;
+        font-size: 9px;
+    }
+    .icons {
+        margin-top: 5px;
+        font-size: 10px;
+    }
+    .footer_link_img {
+        width: 76px;
+        height: 26px;
+    }
+    .footer_link div {
+        left: 5%;
+        bottom: 16%;
+    }
+    .footer_link div p {
+        font-size: 8px;
+    }
+    .footer_link div p span {
+        font-size: 9px;
+    }
+    .footer_link div img {
+        width: 22px;
+    }
+    .icons img {
+        width: 12px;
+        margin-left: 15px;
+    }
+    footer {
+        height: 36vh;
+        overflow: hidden;
+    }
+}
+
+ @media only screen and  (min-width:575px) and (max-width:768px) {
+    .blue_bg {
+        height: 483px;
+    }
+    .div_4 { 
+        padding-top: 57px;
+        margin-left: 62px;
+    }
+    .div_h1 {
+        font-size: 29px;
+    }
+    .div_4 p {
+        font-size: 20px;
+    }
+    .land {
+        width: 96%;
+    }
+    .mask {
+        width: 44%;
+        top: 18px;
+        left: 66px;
+    } 
+    .clouds {
+        width: 56%;
+        bottom: 31px;
+        left: 43px;
+    }
+    .waves {
+        width: 78%;
+        bottom: 25%;
+    }
+    .div_meddel div img {
+        width: 148px;
+    }
+    .div_meddel div {
+        width: 197px;
+    }
+    .div_meddel div h3 {
+        font-size: 20px;
+    }
+    .div_meddel div p {
+        font-size: 14px;
+        padding-top: 8px;
+    }
+    .img_meddel {
+        width: 78%;
+        height: 231%;
+    }
+    .div_meddel .div_6 {
+        top: 49%;
+        left: 9%;
+    }
+    .div_meddel .div_7 {
+        top: 106%;
+        left: 45%;
+    }
+    .div_meddel .div_8 {
+        top: 238%;
+        left: 71%;
+    } 
+    .div_meddel2 {
+        top: 239%;
+        left: 10%;
+    }
+    .div_9 img {
+        width: 213px;
+    }
+    .divph2 {
+        font-size: 19px;
+    }
+    .section_4 {
+        margin-top: 592px;
+    }
+    .section_4 img {
+        width: 176px;
+    }
+    .div_11 h2 {
+        font-size: 25px;
+    }
+    .div_12 {
+        font-size: 20px;
+    }
+    .div_10 img {
+        width: 339px;
+    }
+    footer {
+        height: 46vh;
+        overflow: hidden;
+    } 
+    .footer_icon {
+        top: 63%;
+        left: 4%;    
+    }
+    .div_13 {
+        margin-left: 15px;
+    }
+    .div_14 {
+        font-size: 14px;
+    }
+    .icons {
+        margin-top: 7px;
+    }
+    .footer_link_img {
+        width: 80px;
+        height: 28px;
+    }
+    .footer_link div {
+        left: 9%;
+        bottom: 25%;
+    }
+    .footer_link div p {
+        font-size: 8px;
+    }
+    .footer_link div p span {
+        font-size: 9px;
+    }
+    .footer_link div img {
+        width: 22px;
+    }
+    .icons img {
+        width: 15px;
+        margin-left: 16px;
+    } 
+
+} 
+@media only screen and  (min-width:769px) and (max-width:992px) {
+    .blue_bg {
+        height: 585px;
+    }
+    .div_4 { 
+        padding-top: 85px;
+        margin-left: 72px;
+    }
+    .div_h1 {
+        font-size: 37px;
+    }
+    .div_4 p {
+        font-size: 25px;
+    }
+    .land {
+        width: 98%;
+    }
+    .mask {
+        width: 48%;
+        top: 20px;
+        left: 66px;
+    } 
+    .clouds {
+        width: 55%;
+        bottom: 22px;
+        left: 54px;
+    }
+    .waves {
+        width: 73%;
+        bottom: 12%;
+    }
+    .img_meddel {
+        top: 17%;
+        left: 26%;
+        width: 69%;
+        height: 224%;
+    }
+    .div_meddel div img {
+        width: 180px;
+    }
+    .div_meddel div {
+        width: 266px;
+    }
+    .div_meddel div h3 {
+        font-size: 23px;
+    }
+    .div_meddel div p {
+        font-size: 17px;
+        padding-top: 8px;
+    }
+    .div_meddel .div_6 {
+        top: 53%;
+        left: 12%;
+    }
+    .div_meddel .div_7 {
+        top: 98%;
+        left: 43%;
+    }
+    .div_meddel .div_8 {
+        top: 236%;
+        left: 71%;
+    } 
+    .div_meddel2 {
+        top: 232%;
+        left: 13%;
+    }
+    .div_9 img {
+        width: 281px;
+    }
+    .divph2 {
+        font-size: 24px;
+    }
+    .section_4 {
+        margin-top: 714px;
+    }
+    .section_4 img {
+        width: 188px;
+    }
+    .div_11 h2 {
+        font-size: 28px;
+    }
+    .div_12 {
+        font-size: 22px;
+    }
+    .div_10 img {
+        width: 425px;
+    }
+    footer {
+        height: 57vh;
+        overflow: hidden;
+    }  
+    .img_foot_p {
+        width: 49%;
+        right: 3%;
+        top: 93px;
+    }
+
+}
+@media only screen and  (min-width:993px) and (max-width:1200px) {
+    .blue_bg {
+        height: 672px;
+    }
+    .div_4 { 
+        padding-top: 106px;
+    }
+    .div_h1 {
+        font-size: 44px;
+    }
+    .div_4 p {
+        font-size: 28px;
+    }
+    .land {
+        width: 98%;
+    }
+    .mask {
+        width: 48%;
+        top: 20px;
+        left: 66px;
+    } 
+    .clouds {
+        bottom: 35px;
+        left: 60px;
+    }
+    .waves {
+        width: 76%;
+       bottom: 0%;
+    }
+    .img_foot_p {
+        width: 52%;
+        right: 1%;
+        top: 90px;
+    }
+}
+
+
+    
